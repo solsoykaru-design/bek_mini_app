@@ -45,11 +45,11 @@ class Config:
     """
     # === Telegram ===
     BOT_TOKEN: str = os.getenv("BOT_TOKEN", "8986951654:AAEw6EGQFaavsjQuwVP_hFgCaCGEjbqY53M")
-    WEBAPP_URL_GUEST: str = os.getenv("WEBAPP_URL_GUEST", "https://solsoykaru-design.github.io/mini_bot/")
-    WEBAPP_URL_ADMIN: str = os.getenv("WEBAPP_URL_ADMIN", "https://solsoykaru-design.github.io/mini_bot/")
+    WEBAPP_URL_GUEST: str = os.getenv("WEBAPP_URL_GUEST", "https://solsoykaru-design.github.io/bek_mini_app/")
+    WEBAPP_URL_ADMIN: str = os.getenv("WEBAPP_URL_ADMIN", "https://solsoykaru-design.github.io/bek_mini_app/")
 
     # === База данных ===
-    DATABASE_URL: str = os.getenv("DATABASE_URL", "postgresql+asyncpg://foodchain:foodchain@localhost:5432/foodchain")
+    DATABASE_URL: str = os.getenv("DATABASE_URL", "postgresql+asyncpg://postgres:6218396wW@localhost:5432/foodchain")
     DATABASE_URL_SYNC: str = os.getenv("DATABASE_URL_SYNC", "postgresql://foodchain:foodchain@localhost:5432/foodchain")
 
     # === Redis ===
